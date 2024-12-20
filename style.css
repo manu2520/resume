@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Pacifico&display=swap');
+body {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  header {
+    background-color: #2b3f2c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav h1 {
+    margin-left: 10px;
+    font-size: 1.8rem;
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-img {
+    width: 200px;  /* Small size for the image */
+    height: 200px;
+    border-radius: 50%;  /* Make the image round */
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #165032;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #5735cf;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
